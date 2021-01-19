@@ -1,0 +1,188 @@
+{
+  "$schema": "./website-template.schema.json",
+  "header": {
+    "logo": {
+      "alt-text": "Dashwood Logo",
+      "url": "/assets/images/dashwood-logo.png"
+    },
+    "navbar": [
+      {
+        "label": "The Building",
+        "url": "/building"
+      },
+      {
+        "label": "Availability",
+        "url": "/availability"
+      },
+      {
+        "label": "Location",
+        "url": "/location"
+      },
+      {
+        "label": "Gallery",
+        "url": "/gallery"
+      }
+    ],
+    "call-to-action-button": {
+      "label": "Contact",
+      "url": "/contact"
+    }
+  },
+  "footer": {
+    "logo": {
+      "alt-text": "Dashwood Logo",
+      "url": "/assets/images/dashwood-logo.png"
+    },
+    "info-links": [
+      {
+        "label": "Privacy Policy",
+        "url": "https://landsec.com/policies/privacy-policy"
+      },
+      {
+        "label": "Terms & Conditions",
+        "url": "https://landsec.com/terms-privacy"
+      }
+    ],
+    "text-content": {
+      "header": "Dashwood",
+      "text": "69 Old Broad St, London, EC2M 1QS",
+      "type": "text-content"
+    }
+  },
+  "pages": [
+    {
+      "title": "Dashwood | Home",
+      "location": "/",
+      "sections": [
+        [
+          {
+            "contents": [
+              {
+                "type": "text-content",
+                "header": "Guided Tour",
+                "sub-header": "",
+                "text": "Explore our state of the art space - look around and inside the office."
+              },
+              {
+                "type": "image-content",
+                "alt-text": "A Big Building",
+                "caption": "A Big Building",
+                "desktop-url": "http://landsec.com/images/123456789.jpg"
+              },
+              {
+                "type": "side-by-side-content",
+                "left-side": {
+                  "type": "text-content",
+                  "header": "Office Space that works for you"
+                },
+                "right-side": {
+                  "type": "image-content",
+                  "alt-text": "A Big Building"  ,
+                  "desktop-url": "http://landsec.com/images/123456789.jpg"
+                }
+              }
+            ]
+          },
+          {
+            "contents": [
+              {
+                "type": "contact-content",
+                "company": "MYO",
+                "company-website": "",
+                "email": "oli@myo.co.uk",
+                "headshot-image-url": "https://myo.co.uk/images/123456.jpg",
+                "name": "Oli Knight",
+                "phone": "+44 (0)7852 462 300",
+                "role": "Head of Myo"
+              },
+              {
+                "type": "contact-content",
+                "company": "MYO",
+                "company-website": "",
+                "email": "matthew@myo.co.uk",
+                "headshot-image-url": "https://myo.co.uk/images/123456.jpg",
+                "name": "Matthew Acton",
+                "phone": "+44 (0)7852 965 500",
+                "role": "Accounts Manager"
+              }
+            ]
+          },
+          {
+            "contents": [
+              {
+                "type": "call-to-action-text-card-content",
+                "title": "Discover Dashwood",
+                "text": "Meet Dashwood. One boutique tower at an unrivalled City location, with a unique choice of workspaces. Full fitted and managed etc etc",
+                "button-label": "Find out more",
+                "button-url": "/contact"
+              }
+            ]
+          },
+          {
+            "contents": [
+              {
+                "type": "call-to-action-image-card-content",
+                "title": "Perfectly Located",
+                "text": "Dashwood is right in the heart of the city",
+                "image": {
+                  "type": "image-content",
+                  "desktop-url": "http://images.com/123456798.jpg"
+                },
+                "button-label": "Explore the neighbourhood",
+                "button-url": "/locations"
+              }
+            ]
+          },
+          {
+            "contents": [
+              {
+                "type": "carousel-content",
+                "images": [
+                  {
+                    "type": "image-content",
+                    "desktop-url": "http://images.com/image1.jpg"
+                  },
+                  {
+                    "type": "image-content",
+                    "desktop-url": "http://images.com/image2.jpg"
+                  },
+                  {
+                    "type": "image-content",
+                    "desktop-url": "http://images.com/image3.jpg"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "contents": [
+              {
+                "type": "two-by-two-content",
+                "contents": [
+                  {
+                    "type": "image-content",
+                    "desktop-url": "http://someimage.jpg"
+                  },
+                  {
+                    "type": "text-content",
+                    "header": "Ground level floor plan",
+                    "text": "Right next to Liverpool Street Station, our sophisticated..."
+                  },
+                  {
+                    "type": "text-content",
+                    "header": "Typical floorplan",
+                    "text": "Set the right tone in your office, with asaptable spaces starting from..."
+                  },
+                  {
+                    "type": "image-content",
+                    "desktop-url": "http://someimage.jpg"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      ]
+    }
+  ]
+}
