@@ -58,7 +58,7 @@
       "title": "Dashwood | Home",
       "location": "/",
       "sections": [
-        [
+        
           {
             "contents": [
               {
@@ -185,7 +185,7 @@
               }
             ]
           }
-        ]
+        
       ]
     }
   ]
