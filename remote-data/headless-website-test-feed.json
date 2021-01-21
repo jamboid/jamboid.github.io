@@ -71,7 +71,7 @@
                 "type": "image-content",
                 "alt-text": "A Big Building",
                 "caption": "A Big Building",
-                "desktop-url": "http://landsec.com/images/123456789.jpg"
+                "desktop-url": "https://picsum.photos/1200/900"
               },
               {
                 "type": "side-by-side-content",
@@ -82,7 +82,7 @@
                 "right-side": {
                   "type": "image-content",
                   "alt-text": "A Big Building"  ,
-                  "desktop-url": "http://landsec.com/images/123456789.jpg"
+                  "desktop-url": "https://picsum.photos/1200/900"
                 }
               }
             ]
@@ -94,7 +94,7 @@
                 "company": "MYO",
                 "company-website": "",
                 "email": "oli@myo.co.uk",
-                "headshot-image-url": "https://myo.co.uk/images/123456.jpg",
+                "headshot-image-url": "https://picsum.photos/1200/900",
                 "name": "Oli Knight",
                 "phone": "+44 (0)7852 462 300",
                 "role": "Head of Myo"
@@ -104,7 +104,7 @@
                 "company": "MYO",
                 "company-website": "",
                 "email": "matthew@myo.co.uk",
-                "headshot-image-url": "https://myo.co.uk/images/123456.jpg",
+                "headshot-image-url": "https://picsum.photos/1200/900",
                 "name": "Matthew Acton",
                 "phone": "+44 (0)7852 965 500",
                 "role": "Accounts Manager"
@@ -130,7 +130,7 @@
                 "text": "Dashwood is right in the heart of the city",
                 "image": {
                   "type": "image-content",
-                  "desktop-url": "http://images.com/123456798.jpg"
+                  "desktop-url": "https://picsum.photos/1200/900"
                 },
                 "button-label": "Explore the neighbourhood",
                 "button-url": "/locations"
@@ -144,15 +144,15 @@
                 "images": [
                   {
                     "type": "image-content",
-                    "desktop-url": "http://images.com/image1.jpg"
+                    "desktop-url": "https://picsum.photos/1200/900"
                   },
                   {
                     "type": "image-content",
-                    "desktop-url": "http://images.com/image2.jpg"
+                    "desktop-url": "https://picsum.photos/1200/900"
                   },
                   {
                     "type": "image-content",
-                    "desktop-url": "http://images.com/image3.jpg"
+                    "desktop-url": "https://picsum.photos/1200/900"
                   }
                 ]
               }
@@ -165,7 +165,7 @@
                 "contents": [
                   {
                     "type": "image-content",
-                    "desktop-url": "http://someimage.jpg"
+                    "desktop-url": "https://picsum.photos/1200/900"
                   },
                   {
                     "type": "text-content",
@@ -179,7 +179,7 @@
                   },
                   {
                     "type": "image-content",
-                    "desktop-url": "http://someimage.jpg"
+                    "desktop-url": "https://picsum.photos/1200/900"
                   }
                 ]
               }
