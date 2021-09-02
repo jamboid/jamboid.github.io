@@ -5,6 +5,44 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Tag Manager Sandbox</title>
 
+  <script>
+    function setCookie(name,value,days) {
+      var expires = "";
+      if (days) {
+          var date = new Date();
+          date.setTime(date.getTime() + (days*24*60*60*1000));
+          expires = "; expires=" + date.toUTCString();
+      }
+      document.cookie = name + "=" + (value || "")  + expires + "; path=/";
+    }
+
+    function getCookie(name) {
+      var nameEQ = name + "=";
+      var ca = document.cookie.split(';');
+      for(var i=0;i < ca.length;i++) {
+          var c = ca[i];
+          while (c.charAt(0)==' ') c = c.substring(1,c.length);
+          if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length);
+      }
+      return null;
+    }
+
+    let adStorageValue = 'denied';
+    let analyticsStorageValue = 'denied';
+
+    if(getCookie('trackingConsent')) {
+      adStorageValue = 'granted';
+      analyticsStorageValue = 'granted';
+    }
+        
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { window.dataLayer.push(arguments); }
+    gtag('consent', 'default', {
+      ad_storage: adStorageValue,
+      analytics_storage: analyticsStorageValue
+    });
+  </script>
+
   <!-- Google Tag Manager -->
   <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
   new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -20,5 +58,28 @@
   <!-- End Google Tag Manager (noscript) -->
 
   <h1>This page is used as an Google Tag Manager sandbox.</h1>
+
+  <p>
+    <button id="contentButton">Update Consent</button>
+  </p>
+
+
+  <script>
+
+    document.getElementById('contentButton').onclick = function changeContent(event) {
+      event.preventDefault();
+
+      window.console.log(event);
+
+      window.console.log("button clicked");
+
+      gtag('consent', 'update', {
+        ad_storage: 'granted',
+        analytics_storage: 'granted'
+      });    
+
+      setCookie('trackingConsent','yes',100);
+    };
+  </script>
 </body>
 </html>
