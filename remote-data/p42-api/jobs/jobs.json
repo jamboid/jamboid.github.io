@@ -5,7 +5,7 @@
       "name":"Project 42 Prototyping",
       "jobNumber":"7826",
       "client": "Good",
-      "description": "“Here's to the crazy ones. The misfits. The rebels. The troublemakers. The round pegs in the square holes. The ones who see things differently. They're not fond of rules.",
+      "description": "Here's to the crazy ones. The misfits. The rebels. The troublemakers. The round pegs in the square holes. The ones who see things differently. They're not fond of rules.",
       "owner": "John Appleseed",
       "currency": "£",
       "budgetTotal":45000,
@@ -16,20 +16,22 @@
           "id":"1",
           "data": "10/2021"
         }
-      ]
-    },
+      ],
+      "comments": {}
+    }, 
     {
       "id":"job_2",
       "name":"Website Prototyping",
       "jobNumber":"8826",
       "client": "Valuable Client",
-      "description": "“Here's to the crazy ones. The misfits. The rebels. The troublemakers. The round pegs in the square holes. The ones who see things differently. They're not fond of rules.",
+      "description": "Here's to the crazy ones. The misfits. The rebels. The troublemakers. The round pegs in the square holes. The ones who see things differently. They're not fond of rules.",
       "owner": "Jane Appleseed",
       "currency": "£",
       "budgetTotal":23000,
       "budgetAssigned": 17500,
       "budgetPrebill": 0,
-      "invoiceSchedules": []
+      "invoiceSchedules": [],
+      "comments": {}
     }
   ]
 }
