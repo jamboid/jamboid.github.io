@@ -13,7 +13,6 @@
       "budgetPrebill": 4000,
       "invoiceSchedules": [
         {
-          "id":"1",
           "data": "10/2021"
         }
       ],
