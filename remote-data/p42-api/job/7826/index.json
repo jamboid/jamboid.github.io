@@ -6,8 +6,8 @@
   "description": "Here's to the crazy ones. The misfits. The rebels. The troublemakers. The round pegs in the square holes. The ones who see things differently. They're not fond of rules.",
   "owner": "John Appleseed",
   "currency": "£",
-  "budgetTotal":45000,
-  "budgetAssigned": 25000,
+  "budgetTotal":45000.56,
+  "budgetAssigned": 25000.30,
   "budgetPrebill": 4000,
   "invoiceSchedules": [
   ],

@@ -10,13 +10,7 @@
       "currency": "£",
       "budgetTotal":45000,
       "budgetAssigned": 25000,
-      "budgetPrebill": 4000,
-      "invoiceSchedules": [
-        {
-          "data": "10/2021"
-        }
-      ],
-      "comments": {}
+      "budgetPrebill": 4000
     }, 
     {
       "id":"job_2",
@@ -28,9 +22,7 @@
       "currency": "£",
       "budgetTotal":23000,
       "budgetAssigned": 17500,
-      "budgetPrebill": 0,
-      "invoiceSchedules": [],
-      "comments": {}
+      "budgetPrebill": 0
     }
   ]
 }
