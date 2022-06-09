@@ -1,0 +1,60 @@
+{
+  "Global": {
+    "Colors": {
+      "$type":"color",
+      "Good Red": {
+        "$value": "#EE495B",
+        "$description": "The primary Good accent colour."
+      },
+      "Good Red Shade": {
+        "$value": "#D61429",
+        "$description": "The primary Good accent colour."
+      },
+      "Good Red Lint": {
+        "$value": "#EE495B"
+      },
+      "Good Black": {
+        "$value": "#3C3C44"
+      },
+      "Good Dark Grey": {
+        "$value": "#45454B"
+      },
+      "Good Light Grey": {
+        "$value": "#808080"
+      },
+      "Good Off White": {
+        "$value": "#F0F0F0"
+      },
+      "Good White": {
+        "$value": "#ffffff"
+      } 
+    }
+  },
+  "Brand": {
+    "Colour Theme": {
+      "$type":"color",
+      "Light":{
+        "Accent": {
+          "$value": "{global.colors.good-red}"
+        },
+        "Foreground": {
+          "$value": "{global.colors.good-dark-grey}"
+        },
+        "Background": {
+          "$value": "{global.colors.good-white}"
+        }
+      },
+      "Dark": {
+        "Accent": {
+          "$value": "{global.colors.good-red}"
+        },
+        "Foreground": {
+          "$value": "{global.colors.good-white}"
+        },
+        "Background": {
+          "$value": "{global.colors.good-dark-grey}"
+        }
+      }
+    }
+  }
+}
