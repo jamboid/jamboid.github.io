@@ -36,24 +36,24 @@
         "$type":"color",
         "light":{
           "accent": {
-            "$value": "{core.color.red}"
+            "$value": "{gds.core.color.red}"
           },
           "foreground": {
-            "$value": "{core.color.dark grey}"
+            "$value": "{gds.core.color.dark grey}"
           },
           "background": {
-            "$value": "{core.color.white}"
+            "$value": "{gds.core.color.white}"
           }
         },
         "dark": {
           "accent": {
-            "$value": "{core.color.red}"
+            "$value": "{gds.core.color.red}"
           },
           "foreground": {
-            "$value": "{core.color.white}"
+            "$value": "{gds.core.color.white}"
           },
           "background": {
-            "$value": "{core.color.dark grey}"
+            "$value": "{gds.core.color.dark grey}"
           }
         }
       }
