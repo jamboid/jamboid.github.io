@@ -1,6 +1,8 @@
 {
-  "gds": {
+  "gds": { 
+    "$description": "Good Design System",
     "core": {
+      "$description": "Core Design Tokens",
       "color": {
         "$type":"color",
         "red": {
@@ -32,28 +34,29 @@
       }
     },
     "semantic": {
+      "$description": "Semantic Design Tokens",
       "theme": {
         "$type":"color",
         "light":{
           "accent": {
-            "$value": "{gds.core.color.red}"
+            "$value": "{gds/core/color/red}"
           },
           "foreground": {
-            "$value": "{gds.core.color.dark grey}"
+            "$value": "{gds/core/color/dark grey}"
           },
           "background": {
-            "$value": "{gds.core.color.white}"
+            "$value": "{gds/core/color/white}"
           }
         },
         "dark": {
           "accent": {
-            "$value": "{gds.core.color.red}"
+            "$value": "{gds/core/color/red}"
           },
           "foreground": {
-            "$value": "{gds.core.color.white}"
+            "$value": "{gds/core/color/white}"
           },
           "background": {
-            "$value": "{gds.core.color.dark grey}"
+            "$value": "{gds/core/color/dark grey}"
           }
         }
       }
