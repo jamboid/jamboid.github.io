@@ -31,6 +31,28 @@
         "white": {
           "$value": "#ffffff"
         } 
+      },
+      "space": {
+        "300": {
+          "$value":8,
+          "$type":"size",
+          "$description":"Base spacing unit"
+        },
+        "500": {
+          "$value":16,
+          "$type":"size",
+          "$description":"Small spacing unit"
+        },
+        "700": {
+          "$value":24,
+          "$type":"size",
+          "$description":"Medium spacing unit"
+        },
+        "1000": {
+          "$value":40,
+          "$type":"size",
+          "$description":"Large spacing unit"
+        }
       }
     },
     "semantic": {
