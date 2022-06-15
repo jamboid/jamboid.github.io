@@ -1,34 +1,34 @@
 {
   "gds": {
-    "$description": "Good Design Tokens",
-    "core": {
+    "$description": "Good Design System Namespace",
+    "Core": {
       "$description": "Core Design Tokens",
-      "color": {
+      "Colour": { 
         "$type":"color",
-        "red": {
+        "Red": {
           "$value": "#ee495b",
           "$description": "The primary Good accent colour."
         },
-        "dark red": {
+        "Dark Red": {
           "$value": "#d61429",
           "$description": "The primary Good accent colour shade."
         },
-        "pink": {
+        "Pink": {
           "$value": "#ee495b"
         },
-        "black": {
+        "Black": {
           "$value": "#3c3c44"
         },
-        "dark grey": {
+        "Dark Grey": {
           "$value": "#45454b"
         },
-        "light grey": {
+        "Light Grey": {
           "$value": "#808080"
         },
-        "off white": {
+        "Off White": {
           "$value": "#f0f0f0"
         },
-        "white": {
+        "White": {
           "$value": "#ffffff"
         } 
       },
@@ -55,29 +55,29 @@
         }
       }
     },
-    "semantic": {
+    "Semantic": {
       "$description": "Semantic Design Tokens",
-      "theme": {
+      "Theme": {
         "$type":"color",
-        "light":{
-          "accent": {
+        "Light":{
+          "Accent": {
             "$value": "{gds/core/color/red}"
           },
-          "foreground": {
+          "Foreground": {
             "$value": "{gds/core/color/dark grey}"
           },
-          "background": {
+          "Background": {
             "$value": "{gds/core/color/white}"
           }
         },
-        "dark": {
-          "accent": {
+        "Dark": {
+          "Accent": {
             "$value": "{gds/core/color/red}"
           },
-          "foreground": {
+          "Foreground": {
             "$value": "{gds/core/color/white}"
           },
-          "background": {
+          "Background": {
             "$value": "{gds/core/color/dark grey}"
           }
         }
