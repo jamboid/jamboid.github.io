@@ -1,84 +1,88 @@
 {
-  "core": {
-    "$description": "Core Design Tokens",
-    "color": {
-      "$type":"color",
-      "red": {
-        "$value": "#ee495b",
-        "$description": "The primary Good accent colour."
-      },
-      "dark red": {
-        "$value": "#d61429",
-        "$description": "The primary Good accent colour shade."
-      },
-      "pink": {
-        "$value": "#ee495b"
-      },
-      "black": {
-        "$value": "#3c3c44"
-      },
-      "dark grey": {
-        "$value": "#45454b"
-      },
-      "light grey": {
-        "$value": "#808080"
-      },
-      "off white": {
-        "$value": "#f0f0f0"
-      },
-      "white": {
-        "$value": "#ffffff"
-      } 
-    },
-    "space": {
-      "300": {
-        "$value":8,
-        "$type":"size",
-        "$description":"Base spacing unit"
-      },
-      "500": {
-        "$value":16,
-        "$type":"size",
-        "$description":"Small spacing unit"
-      },
-      "700": {
-        "$value":24,
-        "$type":"size",
-        "$description":"Medium spacing unit"
-      },
-      "1000": {
-        "$value":40,
-        "$type":"size",
-        "$description":"Large spacing unit"
-      }
-    }
-  },
-  "semantic": {
-    "$description": "Semantic Design Tokens",
-    "theme": {
-      "$type":"color",
-      "light":{
-        "accent": {
-          "$value": "{gds/core/color/red}"
+  "gds": {
+    "$description": "Good Design Tokens",
+    "core": {
+      "$description": "Core Design Tokens",
+      "color": {
+        "$type":"color",
+        "red": {
+          "$value": "#ee495b",
+          "$description": "The primary Good accent colour."
         },
-        "foreground": {
-          "$value": "{gds/core/color/dark grey}"
+        "dark red": {
+          "$value": "#d61429",
+          "$description": "The primary Good accent colour shade."
         },
-        "background": {
-          "$value": "{gds/core/color/white}"
+        "pink": {
+          "$value": "#ee495b"
+        },
+        "black": {
+          "$value": "#3c3c44"
+        },
+        "dark grey": {
+          "$value": "#45454b"
+        },
+        "light grey": {
+          "$value": "#808080"
+        },
+        "off white": {
+          "$value": "#f0f0f0"
+        },
+        "white": {
+          "$value": "#ffffff"
+        } 
+      },
+      "space": {
+        "300": {
+          "$value":8,
+          "$type":"size",
+          "$description":"Base spacing unit"
+        },
+        "500": {
+          "$value":16,
+          "$type":"size",
+          "$description":"Small spacing unit"
+        },
+        "700": {
+          "$value":24,
+          "$type":"size",
+          "$description":"Medium spacing unit"
+        },
+        "1000": {
+          "$value":40,
+          "$type":"size",
+          "$description":"Large spacing unit"
         }
-      },
-      "dark": {
-        "accent": {
-          "$value": "{gds/core/color/red}"
+      }
+    },
+    "semantic": {
+      "$description": "Semantic Design Tokens",
+      "theme": {
+        "$type":"color",
+        "light":{
+          "accent": {
+            "$value": "{gds/core/color/red}"
+          },
+          "foreground": {
+            "$value": "{gds/core/color/dark grey}"
+          },
+          "background": {
+            "$value": "{gds/core/color/white}"
+          }
         },
-        "foreground": {
-          "$value": "{gds/core/color/white}"
-        },
-        "background": {
-          "$value": "{gds/core/color/dark grey}"
+        "dark": {
+          "accent": {
+            "$value": "{gds/core/color/red}"
+          },
+          "foreground": {
+            "$value": "{gds/core/color/white}"
+          },
+          "background": {
+            "$value": "{gds/core/color/dark grey}"
+          }
         }
       }
     }
   }
+  
 }
