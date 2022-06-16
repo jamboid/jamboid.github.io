@@ -79,6 +79,38 @@
           "$type":"dimension",
           "$description":"Large spacing unit"
         }
+      },
+      "Duration": {
+        "Short": {
+          "$value": "150ms",
+          "$type": "duration"
+        },
+        "Medium": {
+          "$value": "250ms",
+          "$type": "duration"
+        },
+        "Long": {
+          "$value": "400ms",
+          "$type": "duration"
+        }
+      },
+      "Timing Curves": {
+        "Ease": {
+          "$value": [0.25, 0.1, 0.25, 1],
+          "$type": "cubicBezier"
+        },
+        "Ease In": {
+          "$value": [0.42, 0, 1, 1],
+          "$type": "cubicBezier"
+        },
+        "Ease Out": {
+          "$value": [0, 0, 0.58, 1],
+          "$type": "cubicBezier"
+        },
+        "Ease In Out": {
+          "$value": [0.42, 0, 0.58, 1],
+          "$type": "cubicBezier"
+        }
       }
     },
     "Semantic": {
@@ -143,6 +175,24 @@
             "fontWeight": "GDS/Core/Typography/Font Weight Default",
             "letterSpacing": "0px",
             "lineHeight": "1.5"
+          }
+        }
+      },
+      "Transition": {
+        "Quick": {
+          "$type": "transition",
+          "$value": {
+            "duration": "{GDS/Core/Duration/Short}",
+            "delay": "0ms",
+            "timingFunction": "{GDS/Core/Timing/Ease In}"
+          }
+        },
+        "Gentle": {
+          "$type": "transition",
+          "$value": {
+            "duration": "{GDS/Core/Duration/Medium}",
+            "delay": "0ms",
+            "timingFunction": "{GDS/Core/Timing/Ease In Out}"
           }
         }
       }
