@@ -179,8 +179,8 @@
         }
       },
       "Transition": {
+        "$type": "transition",
         "Quick": {
-          "$type": "transition",
           "$value": {
             "duration": "{GDS/Core/Duration/Short}",
             "delay": "0ms",
@@ -188,7 +188,6 @@
           }
         },
         "Gentle": {
-          "$type": "transition",
           "$value": {
             "duration": "{GDS/Core/Duration/Medium}",
             "delay": "0ms",
