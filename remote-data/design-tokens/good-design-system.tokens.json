@@ -58,26 +58,26 @@
           "$type": "fontWeight"
         }
       },
-      "Space": {
+      "Size Unit": {
         "100": {
           "$value":"8px",
           "$type":"dimension",
-          "$description":"Base spacing unit"
+          "$description":"Base size unit"
         },
         "200": {
           "$value":"16px",
           "$type":"dimension",
-          "$description":"Small spacing unit"
+          "$description":"Small size unit"
         },
         "300": {
           "$value":"24px",
           "$type":"dimension",
-          "$description":"Medium spacing unit"
+          "$description":"Medium size unit"
         },
         "500": {
           "$value":"40px",
           "$type":"dimension",
-          "$description":"Large spacing unit"
+          "$description":"Large size unit"
         }
       },
       "Duration": {
