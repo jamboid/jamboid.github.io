@@ -1,9 +1,9 @@
 {
-  "gds": {
+  "GDS": {
     "$description": "Good Design System Namespace",
     "Core": {
       "$description": "Core Design Tokens",
-      "Colour": { 
+      "Colour": {
         "$type":"color",
         "Red": {
           "$value": "#ee495b",
@@ -32,57 +32,120 @@
           "$value": "#ffffff"
         } 
       },
-      "space": {
-        "300": {
-          "$value":8,
-          "$type":"size",
+      "Typography": {
+        "Primary Font": {
+          "$value": "Akzidenz-Grotesk Pro",
+          "$type": "fontFamily"
+        },
+        "Secondary Font": {
+          "$value":"Sabon",
+          "$type": "fontFamily"
+        },
+        "Digital Font": {
+          "$value": ["Helvetica","Arial"],
+          "$type": "fontFamily"
+        },
+        "Font Weight Default": {
+          "$value": 300,
+          "$type": "fontWeight"
+        },
+        "Font Weight Light": {
+          "$value": 200,
+          "$type": "fontWeight"
+        },
+        "Font Weight Bold": {
+          "$value": 600,
+          "$type": "fontWeight"
+        }
+      },
+      "Space": {
+        "100": {
+          "$value":"8px",
+          "$type":"dimension",
           "$description":"Base spacing unit"
         },
-        "500": {
-          "$value":16,
-          "$type":"size",
+        "200": {
+          "$value":"16px",
+          "$type":"dimension",
           "$description":"Small spacing unit"
         },
-        "700": {
-          "$value":24,
-          "$type":"size",
+        "300": {
+          "$value":"24px",
+          "$type":"dimension",
           "$description":"Medium spacing unit"
         },
-        "1000": {
-          "$value":40,
-          "$type":"size",
+        "500": {
+          "$value":"40px",
+          "$type":"dimension",
           "$description":"Large spacing unit"
         }
       }
     },
     "Semantic": {
       "$description": "Semantic Design Tokens",
-      "Theme": {
-        "$type":"color",
-        "Light":{
-          "Accent": {
-            "$value": "{gds/core/color/red}"
+      "Colour": {
+        "Theme": {
+          "$type":"color",
+          "Light":{
+            "Accent": {
+              "$value": "{GDS/Core/Colour/Red}"
+            },
+            "Accent Tint": {
+              "$value": "{GDS/Core/Colour/Dark Red}"
+            },
+            "Foreground": {
+              "$value": "{GDS/Core/Colour/Dark Grey}"
+            },
+            "Background": {
+              "$value": "{GDS/Core/Colour/White}"
+            }
           },
-          "Foreground": {
-            "$value": "{gds/core/color/dark grey}"
-          },
-          "Background": {
-            "$value": "{gds/core/color/white}"
+          "Dark": {
+            "Accent": {
+              "$value": "{GDS/Core/Colour/Red}"
+            },
+            "Accent Tint": {
+              "$value": "{GDS/Core/Colour/Pink}"
+            },
+            "Foreground": {
+              "$value": "{GDS/Core/Colour/White}"
+            },
+            "Background": {
+              "$value": "{GDS/Core/Colour/Dark Grey}"
+            }
+          }
+        }
+      },
+      "Typography": {
+        "$type": "typography",
+        "Heading Level 1": {
+          "$value": {
+            "fontFamily": "{GDS/Core/Typography/Primary Font}",
+            "fontSize": "42px",
+            "fontWeight": "GDS/Core/Typography/Font Weight Bold",
+            "letterSpacing": "0px",
+            "lineHeight": "1.2"
           }
         },
-        "Dark": {
-          "Accent": {
-            "$value": "{gds/core/color/red}"
-          },
-          "Foreground": {
-            "$value": "{gds/core/color/white}"
-          },
-          "Background": {
-            "$value": "{gds/core/color/dark grey}"
+        "Heading Level 2": {
+          "$value": {
+            "fontFamily": "{GDS/Core/Typography/Primary Font}",
+            "fontSize": "28px",
+            "fontWeight": "GDS/Core/Typography/Font Weight Bold",
+            "letterSpacing": "0px",
+            "lineHeight": "1.2"
+          }
+        },
+        "Body Text": {
+          "$value": {
+            "fontFamily": "{GDS/Core/Typography/Primary Font}",
+            "fontSize": "18px",
+            "fontWeight": "GDS/Core/Typography/Font Weight Default",
+            "letterSpacing": "0px",
+            "lineHeight": "1.5"
           }
         }
       }
     }
   }
-  
 }
