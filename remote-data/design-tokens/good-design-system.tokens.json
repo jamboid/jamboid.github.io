@@ -130,10 +130,10 @@
               "$value": "{GDS/Core/Colour/Dark Red}"
             },
             "Foreground": {
-              "$value": "{GDS/Core/Colour/Dark Grey}"
+              "$value": "{GDS/Core/Colour/Greyscale/Dark Grey}"
             },
             "Background": {
-              "$value": "{GDS/Core/Colour/White}"
+              "$value": "{GDS/Core/Colour/Greyscale/White}"
             }
           },
           "Dark": {
@@ -144,10 +144,10 @@
               "$value": "{GDS/Core/Colour/Pink}"
             },
             "Foreground": {
-              "$value": "{GDS/Core/Colour/White}"
+              "$value": "{GDS/Core/Colour/Greyscale/White}"
             },
             "Background": {
-              "$value": "{GDS/Core/Colour/Dark Grey}"
+              "$value": "{GDS/Core/Colour/Greyscale/Dark Grey}"
             }
           }
         }
