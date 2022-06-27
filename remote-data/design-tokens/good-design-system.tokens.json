@@ -17,21 +17,24 @@
         "Pink": {
           "$value": "#ee495b"
         },
-        "Black": {
-          "$value": "#3c3c44"
-        },
-        "Dark Grey": {
-          "$value": "#45454b"
-        },
-        "Light Grey": {
-          "$value": "#808080"
-        },
-        "Off White": {
-          "$value": "#f0f0f0"
-        },
-        "White": {
-          "$value": "#ffffff"
-        } 
+        "Greyscale": {
+          "$description": "Neutral/Grey colours",
+          "Black": {
+            "$value": "#3c3c44"
+          },
+          "Dark Grey": {
+            "$value": "#45454b"
+          },
+          "Light Grey": {
+            "$value": "#808080"
+          },
+          "Off White": {
+            "$value": "#f0f0f0"
+          },
+          "White": {
+            "$value": "#ffffff"
+          } 
+        }
       },
       "Typography": {
         "Primary Font": {
