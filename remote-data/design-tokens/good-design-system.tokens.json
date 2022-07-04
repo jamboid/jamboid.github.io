@@ -1,10 +1,10 @@
 {
   "GDS": {
-    "$description": "Good Design System Namespace",
-    "Core": {
-      "$description": "Core Design Tokens",
+    "$description": "Good design system namespace",
+    "Ref": {
+      "$description": "All available tokens",
       "Colour": {
-        "$description": "The Colour-related tokens for the Core set",
+        "$description": "The Colour-related tokens for the Reference set",
         "$type":"color",
         "Red": {
           "$value": "#ee495b",
@@ -117,8 +117,8 @@
         }
       }
     },
-    "Semantic": {
-      "$description": "Semantic Design Tokens",
+    "Sys": {
+      "$description": "Semantic tokens that provide the foundation for the design system",
       "Colour": {
         "Theme": {
           "$type":"color",
