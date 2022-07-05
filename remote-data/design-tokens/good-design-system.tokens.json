@@ -2,7 +2,7 @@
   "GDS": {
     "$description": "Good design system namespace",
     "Ref": {
-      "$description": "All available tokens",
+      "$description": "All tokens available to be referenced in the design system and System-level tokens",
       "Colour": {
         "$description": "The Colour-related tokens for the Reference set",
         "$type":"color",
@@ -118,7 +118,7 @@
       }
     },
     "Sys": {
-      "$description": "Semantic tokens that provide the foundation for the design system",
+      "$description": "System tokens representing the design decisions that create the character of the design system",
       "Colour": {
         "Theme": {
           "$type":"color",
