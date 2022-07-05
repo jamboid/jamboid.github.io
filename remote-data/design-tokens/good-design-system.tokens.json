@@ -15,7 +15,7 @@
           "$description": "The primary Good accent colour shade."
         },
         "Pink": {
-          "$value": "#ee495b"
+          "$value": "#fff0f4"
         },
         "Greyscale": {
           "$description": "Neutral/Grey colours",
