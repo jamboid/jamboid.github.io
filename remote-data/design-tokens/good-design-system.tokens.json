@@ -1,11 +1,20 @@
 {
   "GDS": {
     "$description": "Good design system namespace",
+    "$extensions": {
+      "groupType":"namespace"
+    },
     "Ref": {
       "$description": "All tokens available to be referenced in the design system and System-level tokens",
+      "$extensions": {
+        "groupType":"level"
+      },
       "Colour": {
         "$description": "The Colour-related tokens for the Reference set",
         "$type":"color",
+        "$extensions": {
+          "groupType":"section"
+        },
         "Red": {
           "$value": "#ee495b",
           "$description": "The primary Good accent colour."
@@ -19,6 +28,9 @@
         },
         "Greyscale": {
           "$description": "Neutral/Grey colours",
+          "$extensions": {
+            "groupType":"sub-section"
+          },
           "Black": {
             "$value": "#3c3c44"
           },
@@ -37,6 +49,10 @@
         }
       },
       "Typography": {
+        "$description": "Basic typography values for font family, weight and size.",
+        "$extensions": {
+          "groupType":"section"
+        },
         "Primary Font": {
           "$value": "Akzidenz-Grotesk Pro",
           "$type": "fontFamily"
@@ -63,6 +79,10 @@
         }
       },
       "Size Unit": {
+        "$description": "Size scale units",
+        "$extensions": {
+          "groupType":"section"
+        },
         "100": {
           "$value":"8px",
           "$type":"dimension",
@@ -85,6 +105,10 @@
         }
       },
       "Duration": {
+        "$description": "Time durations for use in transitions, animations and other time-based functionality.",
+        "$extensions": {
+          "groupType":"section"
+        },
         "Short": {
           "$value": "150ms",
           "$type": "duration"
@@ -99,6 +123,10 @@
         }
       },
       "Timing Curves": {
+        "$description": "Bezier curves for use in transitions, animations and other time-based functionality.",
+        "$extensions": {
+          "groupType":"section"
+        },
         "Ease": {
           "$value": [0.25, 0.1, 0.25, 1],
           "$type": "cubicBezier"
@@ -119,41 +147,56 @@
     },
     "Sys": {
       "$description": "System tokens representing the design decisions that create the character of the design system",
+      "$extensions": {
+        "groupType":"level"
+      },
       "Colour": {
-        "Theme": {
-          "$type":"color",
-          "Light":{
-            "Accent": {
-              "$value": "{GDS/Ref/Colour/Red}"
-            },
-            "Accent Tint": {
-              "$value": "{GDS/Ref/Colour/Dark Red}"
-            },
-            "Foreground": {
-              "$value": "{GDS/Ref/Colour/Greyscale/Dark Grey}"
-            },
-            "Background": {
-              "$value": "{GDS/Ref/Colour/Greyscale/White}"
-            }
+        "$description": "The colour system.",
+        "$extensions": {
+          "groupType":"section"
+        },
+        "$type":"color",
+        "LightTheme": {
+          "$extensions": {
+            "groupType":"sub-section"
           },
-          "Dark": {
-            "Accent": {
-              "$value": "{GDS/Ref/Colour/Red}"
-            },
-            "Accent Tint": {
-              "$value": "{GDS/Ref/Colour/Pink}"
-            },
-            "Foreground": {
-              "$value": "{GDS/Ref/Colour/Greyscale/White}"
-            },
-            "Background": {
-              "$value": "{GDS/Ref/Colour/Greyscale/Dark Grey}"
-            }
+          "Accent": {
+            "$value": "{GDS/Ref/Colour/Red}"
+          },
+          "Accent Tint": {
+            "$value": "{GDS/Ref/Colour/Dark Red}"
+          },
+          "Foreground": {
+            "$value": "{GDS/Ref/Colour/Greyscale/Dark Grey}"
+          },
+          "Background": {
+            "$value": "{GDS/Ref/Colour/Greyscale/White}"
+          }
+          
+        },
+        "Dark Theme": {
+          "$extensions": {
+            "groupType":"sub-section"
+          },
+          "Accent": {
+            "$value": "{GDS/Ref/Colour/Red}"
+          },
+          "Accent Tint": {
+            "$value": "{GDS/Ref/Colour/Pink}"
+          },
+          "Foreground": {
+            "$value": "{GDS/Ref/Colour/Greyscale/White}"
+          },
+          "Background": {
+            "$value": "{GDS/Ref/Colour/Greyscale/Dark Grey}"
           }
         }
       },
       "Typography": {
         "$type": "typography",
+        "$extensions": {
+          "groupType":"section"
+        },
         "Heading Level 1": {
           "$value": {
             "fontFamily": "{GDS/Ref/Typography/Primary Font}",
@@ -183,6 +226,9 @@
         }
       },
       "Transition": {
+        "$extensions": {
+          "groupType":"section"
+        },
         "$type": "transition",
         "Quick": {
           "$value": {
