@@ -9,7 +9,7 @@
       "$extensions": {
         "groupType":"level"
       },
-      "Colour": {
+      "Colours": {
         "$description": "The Colour-related tokens for the Reference set",
         "$type":"color",
         "$extensions": {
@@ -88,7 +88,7 @@
           }
         }
       },
-      "Size Unit": {
+      "Size Units": {
         "$description": "Size scale units",
         "$extensions": {
           "groupType":"section"
@@ -114,7 +114,7 @@
           "$description":"Large size unit"
         }
       },
-      "Duration": {
+      "Durations": {
         "$description": "Time durations for use in transitions, animations and other time-based functionality.",
         "$extensions": {
           "groupType":"section"
@@ -160,7 +160,7 @@
       "$extensions": {
         "groupType":"level"
       },
-      "Colour": {
+      "Colours": {
         "$description": "The colour system.",
         "$extensions": {
           "groupType":"section"
@@ -235,7 +235,7 @@
           }
         }
       },
-      "Transition": {
+      "Transitions": {
         "$extensions": {
           "groupType":"section"
         },
