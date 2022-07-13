@@ -53,29 +53,39 @@
         "$extensions": {
           "groupType":"section"
         },
-        "Primary Font": {
-          "$value": "Akzidenz-Grotesk Pro",
-          "$type": "fontFamily"
+        "Fonts": {
+          "$extensions": {
+            "groupType":"sub-section"
+          },
+          "Primary Font": {
+            "$value": "Akzidenz-Grotesk Pro",
+            "$type": "fontFamily"
+          },
+          "Secondary Font": {
+            "$value":"Sabon",
+            "$type": "fontFamily"
+          },
+          "Digital Font": {
+            "$value": ["Helvetica","Arial"],
+            "$type": "fontFamily"
+          }
         },
-        "Secondary Font": {
-          "$value":"Sabon",
-          "$type": "fontFamily"
-        },
-        "Digital Font": {
-          "$value": ["Helvetica","Arial"],
-          "$type": "fontFamily"
-        },
-        "Font Weight Default": {
-          "$value": 300,
-          "$type": "fontWeight"
-        },
-        "Font Weight Light": {
-          "$value": 200,
-          "$type": "fontWeight"
-        },
-        "Font Weight Bold": {
-          "$value": 600,
-          "$type": "fontWeight"
+        "Weights": {
+          "$extensions": {
+            "groupType":"sub-section"
+          },
+          "Normal": {
+            "$value": 300,
+            "$type": "fontWeight"
+          },
+          "Light": {
+            "$value": 200,
+            "$type": "fontWeight"
+          },
+          "Bold": {
+            "$value": 600,
+            "$type": "fontWeight"
+          }
         }
       },
       "Size Unit": {
