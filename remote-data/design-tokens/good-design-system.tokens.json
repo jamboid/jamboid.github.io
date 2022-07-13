@@ -57,15 +57,15 @@
           "$extensions": {
             "groupType":"sub-section"
           },
-          "Primary Font": {
+          "Primary": {
             "$value": "Akzidenz-Grotesk Pro",
             "$type": "fontFamily"
           },
-          "Secondary Font": {
+          "Secondary": {
             "$value":"Sabon",
             "$type": "fontFamily"
           },
-          "Digital Font": {
+          "Digital": {
             "$value": ["Helvetica","Arial"],
             "$type": "fontFamily"
           }
@@ -189,16 +189,16 @@
             "groupType":"sub-section"
           },
           "Accent": {
-            "$value": "{GDS/Ref/Colour/Red}"
+            "$value": "{GDS/Ref/Colours/Red}"
           },
           "Accent Tint": {
-            "$value": "{GDS/Ref/Colour/Pink}"
+            "$value": "{GDS/Ref/Colours/Pink}"
           },
           "Foreground": {
-            "$value": "{GDS/Ref/Colour/Greyscale/White}"
+            "$value": "{GDS/Ref/Colours/Greyscale/White}"
           },
           "Background": {
-            "$value": "{GDS/Ref/Colour/Greyscale/Dark Grey}"
+            "$value": "{GDS/Ref/Colours/Greyscale/Dark Grey}"
           }
         }
       },
@@ -209,27 +209,27 @@
         },
         "Heading Level 1": {
           "$value": {
-            "fontFamily": "{GDS/Ref/Typography/Primary Font}",
+            "fontFamily": "{GDS/Ref/Typography/Fonts/Primary}",
             "fontSize": "42px",
-            "fontWeight": "{GDS/Ref/Typography/Font Weight Bold}",
+            "fontWeight": "{GDS/Ref/Typography/Weights/Bold}",
             "letterSpacing": "0px",
             "lineHeight": "1.2"
           }
         },
         "Heading Level 2": {
           "$value": {
-            "fontFamily": "{GDS/Ref/Typography/Primary Font}",
+            "fontFamily": "{GDS/Ref/Typography/Fonts/Primary}",
             "fontSize": "28px",
-            "fontWeight": "{GDS/Ref/Typography/Font Weight Bold}",
+            "fontWeight": "{GDS/Ref/Typography/Weights/Bold}",
             "letterSpacing": "0px",
             "lineHeight": "1.2"
           }
         },
         "Body Text": {
           "$value": {
-            "fontFamily": "{GDS/Ref/Typography/Primary Font}",
+            "fontFamily": "{GDS/Ref/Typography/Fonts/Primary}",
             "fontSize": "18px",
-            "fontWeight": "{GDS/Ref/Typography/Font Weight Default}",
+            "fontWeight": "{GDS/Ref/Typography/Weights/Normal}",
             "letterSpacing": "0px",
             "lineHeight": "1.5"
           }
@@ -242,16 +242,16 @@
         "$type": "transition",
         "Quick": {
           "$value": {
-            "duration": "{GDS/Ref/Duration/Short}",
+            "duration": "{GDS/Ref/Durations/Short}",
             "delay": "0ms",
-            "timingFunction": "{GDS/Ref/Timing/Ease In}"
+            "timingFunction": "{GDS/Ref/Timing Curves/Ease In}"
           }
         },
         "Gentle": {
           "$value": {
-            "duration": "{GDS/Ref/Duration/Medium}",
+            "duration": "{GDS/Ref/Durations/Medium}",
             "delay": "0ms",
-            "timingFunction": "{GDS/Ref/Timing/Ease In Out}"
+            "timingFunction": "{GDS/Ref/Timing Curves/Ease In Out}"
           }
         }
       }
