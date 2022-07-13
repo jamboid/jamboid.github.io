@@ -171,16 +171,16 @@
             "groupType":"sub-section"
           },
           "Accent": {
-            "$value": "{GDS/Ref/Colour/Red}"
+            "$value": "{GDS/Ref/Colours/Red}"
           },
           "Accent Tint": {
-            "$value": "{GDS/Ref/Colour/Dark Red}"
+            "$value": "{GDS/Ref/Colours/Dark Red}"
           },
           "Foreground": {
-            "$value": "{GDS/Ref/Colour/Greyscale/Dark Grey}"
+            "$value": "{GDS/Ref/Colours/Greyscale/Dark Grey}"
           },
           "Background": {
-            "$value": "{GDS/Ref/Colour/Greyscale/White}"
+            "$value": "{GDS/Ref/Colours/Greyscale/White}"
           }
           
         },
