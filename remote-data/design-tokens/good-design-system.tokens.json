@@ -128,7 +128,7 @@
           "$type": "duration"
         },
         "Long": {
-          "$value": "400ms",
+          "$value": "600ms",
           "$type": "duration"
         }
       },
@@ -253,7 +253,15 @@
             "delay": "0ms",
             "timingFunction": "{GDS/Ref/Timing Curves/Ease In Out}"
           }
+        },
+        "Long": {
+          "$value": {
+            "duration": "{GDS/Ref/Durations/Long}",
+            "delay": "0ms",
+            "timingFunction": "{GDS/Ref/Timing Curves/Ease In Out}"
+          }
         }
+
       }
     }
   }
