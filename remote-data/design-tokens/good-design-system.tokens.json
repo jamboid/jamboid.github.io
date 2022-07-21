@@ -7,7 +7,7 @@
     "Ref": {
       "$description": "All tokens available to be referenced in the design system and System-level tokens",
       "$extensions": {
-        "groupType":"level"
+        "groupType":"tier"
       },
       "Colours": {
         "$description": "The Colour-related tokens for the Reference set",
@@ -158,7 +158,7 @@
     "Sys": {
       "$description": "System tokens representing the design decisions that create the character of the design system",
       "$extensions": {
-        "groupType":"level"
+        "groupType":"tier"
       },
       "Colours": {
         "$description": "The colour system.",
